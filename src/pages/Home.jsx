@@ -35,12 +35,12 @@ export default function Home() {
           <span>Web developer based in the Thailand</span>
           <br />
           <div className="flex mt-5">
-            <FaInstagramSquare className="mr-2 text-4xl bg-white text-black p-0.5 rounded-xl" />
-            <GrGithub className="ml-2 text-4xl" />
+            <FaInstagramSquare className="mr-2 text-4xl bg-white text-black p-0.5 rounded-xl animate-pulse" />
+            <GrGithub className="ml-2 text-4xl animate-pulse" />
           </div>
         </div>
-        <div className="ml-20">
-          <img className="w-48 rounded-full" src={profile} alt="profile" />
+        <div className="ml-20 ">
+          <img className="w-48 rounded-full animate-slideIn" src={profile} alt="profile " />
         </div>
       </div>
       <div className="flex flex-col items-center mt-60">
@@ -57,6 +57,19 @@ export default function Home() {
           <img className="w-8 mx-2" src={img9} alt="react" />
         </div>
       </div>
+      <style jsx>{`
+        @keyframes slideIn {
+          from {
+            transform: translateX(-100%);
+          }
+          to {
+            transform: translateX(0);
+          }
+        }
+        .animate-slideIn {
+          animation: slideIn 1.5s ease-out;
+        }
+      `}</style>
     </>
   );
 }

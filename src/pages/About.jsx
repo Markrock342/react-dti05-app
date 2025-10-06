@@ -19,7 +19,7 @@ export default function About() {
             About Me
           </h1>
 
-          <div className="mt-4">
+          <div className="mt-4 transition-transform duration-500 animate-spin">
             <img
               src={s1}
               alt="S1"
@@ -54,10 +54,15 @@ export default function About() {
 
         {/* ปุ่ม Download CV */}
         <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2">
-          <button className="border border-white py-2 px-8 rounded-3xl text-white text-lg hover:bg-white hover:text-black transition-all duration-300">
+          <button className="animate-bounce border border-white py-2 px-8 rounded-3xl text-white text-lg ml-30 hover:bg-white hover:text-black transition-all duration-300">
             Download CV
           </button>
         </div>
+      </div>
+
+      {/* Footer */}
+      <div className="flex flex-col items-center border-t border-gray-600 pt-4 my-1">
+        <p className="text-sm text-gray-500 ml-30">© 2025 YARANAIKA All rights reserved.</p>
       </div>
     </>
   );

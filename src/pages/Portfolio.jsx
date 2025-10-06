@@ -21,26 +21,26 @@ export default function Portfolio() {
             <img src={bikes} alt="Bikes and Beards" className="w-80 h-56 object-cover rounded-xl mb-4" />
           </div>
           <div className="flex flex-col justify-center">
-            <h2 className="font-bold text-base mb-2">Bikes and Beards</h2>
-            <p className="text-sm mb-4 w-80">
+            <h2 style={{ fontFamily: 'Lora' }} className="font-bold text-base mb-2">Bikes and Beards</h2>
+            <p style={{ fontFamily: 'Lora' }} className="text-sm mb-4 w-80">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem odit labore unde nemo omnis sequi hic sit laudantium repellendus recusandae vitae ea laborum.
             </p>
             <div className="flex items-center gap-4 mt-2">
-              <button className="border border-white py-1 px-6 rounded-3xl text-white text-sm hover:bg-white hover:text-black transition">View</button>
-              <img src={githubIcon} alt="GitHub" className="w-9 h-9 bg-white rounded-full p-1" />
-              <span className="text-xs">Git code</span>
+              <button style={{ fontFamily: 'Lora' }} className="border border-white py-1 px-6 rounded-3xl text-white text-sm hover:bg-white hover:text-black transition">View</button>
+              <img src={githubIcon} alt="GitHub" className="w-9 h-9 bg-white rounded-full p-1 animate-pulse hover:scale-110 transition-transform duration-300" />
+              <span style={{ fontFamily: 'Lora' }} className="text-xs">Git code</span>
             </div>
           </div>
           {/* 2nd row: Text left, Image right */}
           <div className="flex flex-col justify-center text-right">
-            <h2 className="font-bold text-base mb-2">Learnify</h2>
-            <p className="text-sm mb-4 w-80 ml-auto">
+            <h2 style={{ fontFamily: 'Lora' }} className="font-bold text-base mb-2">Learnify</h2>
+            <p style={{ fontFamily: 'Lora' }} className="text-sm mb-4 w-80 ml-auto">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem odit labore unde nemo omnis sequi hic sit laudantium repellendus recusandae vitae ea laborum.
             </p>
             <div className="flex items-center justify-end gap-4 mt-2">
-              <button className="border border-white py-1 px-6 rounded-3xl text-white text-sm hover:bg-white hover:text-black transition">View</button>
-              <img src={githubIcon} alt="GitHub" className="w-9 h-9 bg-white rounded-full p-1" />
-              <span className="text-xs">Git code</span>
+              <button style={{ fontFamily: 'Lora' }} className="border border-white py-1 px-6 rounded-3xl text-white text-sm hover:bg-white hover:text-black transition">View</button>
+              <img src={githubIcon} alt="GitHub" className="w-9 h-9 bg-white rounded-full p-1 animate-pulse hover:scale-110 transition-transform duration-300" />
+              <span style={{ fontFamily: 'Lora' }} className="text-xs">Git code</span>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
@@ -51,32 +51,35 @@ export default function Portfolio() {
             <img src={figma} alt="Figma to HTML (Community)" className="w-80 h-56 object-cover rounded-xl mb-4" />
           </div>
           <div className="flex flex-col justify-center">
-            <h2 className="font-bold text-base mb-2">Figma to HTML (Community)</h2>
-            <p className="text-sm mb-4 w-80">
+            <h2 style={{ fontFamily: 'Lora' }} className="font-bold text-base mb-2">Figma to HTML (Community)</h2>
+            <p style={{ fontFamily: 'Lora' }} className="text-sm mb-4 w-80">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem odit labore unde nemo omnis sequi hic sit laudantium repellendus recusandae vitae ea laborum.
             </p>
             <div className="flex items-center gap-4 mt-2">
-              <button className="border border-white py-1 px-6 rounded-3xl text-white text-sm hover:bg-white hover:text-black transition">View</button>
-              <img src={githubIcon} alt="GitHub" className="w-9 h-9 bg-white rounded-full p-1" />
-              <span className="text-xs">Git code</span>
+              <button style={{ fontFamily: 'Lora' }} className="border border-white py-1 px-6 rounded-3xl text-white text-sm hover:bg-white hover:text-black transition">View</button>
+              <img src={githubIcon} alt="GitHub" className="w-9 h-9 bg-white rounded-full p-1 animate-pulse hover:scale-110 transition-transform duration-300" />
+              <span style={{ fontFamily: 'Lora' }} className="text-xs">Git code</span>
             </div>
           </div>
           {/* 4th row: Text left, Image right */}
           <div className="flex flex-col justify-center text-right">
-            <h2 className="font-bold text-base mb-2">EdTech</h2>
-            <p className="text-sm mb-4 w-80 ml-auto">
+            <h2 style={{ fontFamily: 'Lora' }} className="font-bold text-base mb-2">EdTech</h2>
+            <p style={{ fontFamily: 'Lora' }} className="text-sm mb-4 w-80 ml-auto">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem odit labore unde nemo omnis sequi hic sit laudantium repellendus recusandae vitae ea laborum.
             </p>
             <div className="flex items-center justify-end gap-4 mt-2">
-              <button className="border border-white py-1 px-6 rounded-3xl text-white text-sm hover:bg-white hover:text-black transition">View</button>
-              <img src={githubIcon} alt="GitHub" className="w-9 h-9 bg-white rounded-full p-1" />
-              <span className="text-xs">Git code</span>
+              <button style={{ fontFamily: 'Lora' }} className="border border-white py-1 px-6 rounded-3xl text-white text-sm hover:bg-white hover:text-black transition">View</button>
+              <img src={githubIcon} alt="GitHub" className="w-9 h-9 bg-white rounded-full p-1 animate-pulse hover:scale-110 transition-transform duration-300" />
+              <span style={{ fontFamily: 'Lora' }} className="text-xs">Git code</span>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
             <img src={edtech} alt="EdTech" className="w-80 h-56 object-cover rounded-xl mb-4" />
           </div>
         </div>
+      <div className="flex flex-col items-center border-t border-gray-600 pt-4 my-1">
+        <p style={{ fontFamily: 'Lora' }} className="text-sm text-gray-500 ml-30">© 2025 YARANAIKA All rights reserved.</p>
+      </div>        
       </div>
     </>
   );
